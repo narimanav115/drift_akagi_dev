@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akagi Racing Team</title>
+  <link rel="icon" type="image/png" href="./en/favicon.png" />
+  <script>
+    (function() {
+      var lang = (navigator.language || '').slice(0, 2);
+      var supported = { en: 1, ja: 1, ru: 1 };
+      var target = supported[lang] ? lang : 'en';
+      window.location.replace('./' + target + '/');
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=./en/" />
+  </noscript>
+</head>
+<body></body>
+</html>
